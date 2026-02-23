@@ -176,7 +176,8 @@ public class Student {
                     this.gpa,
                     this.section,
                     this.contactNumber
-            );
+            )
+                ;
         }
     }
 }
