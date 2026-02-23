@@ -65,8 +65,7 @@ public class Student {
         return contactNumber;
     }
 
-    /*
-    // Setter methods (only for modifiable fields)
+    
     public void setAge(int age) {
         this.age = age;
     }
@@ -176,8 +175,7 @@ public class Student {
                     this.gpa,
                     this.section,
                     this.contactNumber
-            )
-                ;
+            );
         }
     }
 }
