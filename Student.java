@@ -1,86 +1,69 @@
 public class Student {
-    private final int studentId;
-    private final String firstName;
-    private final String lastName;
-    private final int age;
-    private final String email;
-    private final String course;
-    private final int yearLevel;
-    private final double gpa;
-    private final String section;
-    private final String contactNumber;
+    private final int STUDENTID;
+    private final String FIRSTNAME;
+    private final String LASTNAME;
+    private final int AGE;
+    private final String EMAIL;
+    private final String COURSE;
+    private final int YEARLEVEL;
+    private final double GPA;
+    private final String SECTION;
+    private final String CONTACTNUMBER;
 
-    public Student(int studentId, String firstName, String lastName, int age,
-                   String email, String course, int yearLevel, double gpa,
-                   String section, String contactNumber){
-        this.studentId = studentId;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.age = age;
-        this.email = email;
-        this.course = course;
-        this.yearLevel = yearLevel;
-        this.gpa = gpa;
-        this.section = section;
-        this.contactNumber = contactNumber;
+    public Student(int STUDENTID, String FIRSTNAME, String LASTNAME, int AGE,
+                   String EMAIL, String COURSE, int YEARLEVEL, double GPA,
+                   String SECTION, String CONTACTNUMBER){
+        this.STUDENTID = STUDENTID;
+        this.FIRSTNAME = FIRSTNAME;
+        this.LASTNAME = LASTNAME;
+        this.AGE = AGE;
+        this.EMAIL = EMAIL;
+        this.COURSE = COURSE;
+        this.YEARLEVEL = YEARLEVEL;
+        this.GPA = GPA;
+        this.SECTION = SECTION;
+        this.CONTACTNUMBER = CONTACTNUMBER;
     }
     // Getter methods
-    public int getStudentId() {
-        return studentId;
+    public int getSTUDENTID() {
+        return STUDENTID;
     }
 
     public String getFirstName() {
-        return firstName;
+        return FIRSTNAME;
     }
 
     public String getLastName() {
-        return lastName;
+        return LASTNAME;
     }
 
     public int getAge() {
-        return age;
+        return AGE;
     }
 
     public String getEmail() {
-        return email;
+        return EMAIL;
     }
 
     public String getCourse() {
-        return course;
+        return COURSE;
     }
 
     public int getYearLevel() {
-        return yearLevel;
+        return YEARLEVEL;
     }
 
     public double getGpa() {
-        return gpa;
+        return GPA;
     }
 
     public String getSection() {
-        return section;
+        return SECTION;
     }
 
     public String getContactNumber() {
-        return contactNumber;
+        return CONTACTNUMBER;
     }
-
-    
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public void setGpa(double gpa) {
-        this.gpa = gpa;
-    }
-
-    public void setContactNumber(String contactNumber) {
-        this.contactNumber = contactNumber;
-    }*/
 
     public String toString(){
         return "Student{" +
